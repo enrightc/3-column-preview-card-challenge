@@ -25,7 +25,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Desktop view](docs/readme-images/Screenshot 2024-01-23 at 10-10-53 3 column preview card challenge.png)
+![](docs/readme-images/screenshot.png)
 
 ### Links
 
@@ -42,4 +42,5 @@ Users should be able to:
 
 ### What I learned
 
-CSS flexbox
+This is one of my first attempts using Flexbox and I am still getting used to it. In this project I had to add a media query to change the default properties of the flexbox so that the cards would stack vertically on smaller devices.
+I built the page on a large screen first and then added media queries for smaller devices to make it mobile friendly.
