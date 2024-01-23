@@ -41,17 +41,24 @@ h3 {
     display:flex;
 }
 
-.sedans {
+.card {
     display:flex;
     flex-direction: column;
     gap: 40px;
-    background-color: hsl(31, 77%, 52%);
     max-width: 350px;
+    padding: 50px; 
+}
+.sedans {
+    background-color: hsl(31, 77%, 52%);
     border-radius: 10px 0 0 10px;
-    padding: 50px;
 }
 
-.sedan-logo {
+.suvs {
+    background-color: hsl(184, 100%, 22%);
+ 
+}
+
+.logo {
     width: 75px;
     height: 47px;
 }
@@ -61,17 +68,20 @@ button {
     background-color: hsl(0, 0%, 95%);
     border: none;
     border-radius: 25px;
-    font-size: 16px;
-    padding: 20px 10px;
+    font-size: 17px;
+    padding: 15px 10px;
     width: 175px;
-    font-family: "Big Shoulders Display", sans-serif;
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
-  font-size: 18px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
+  font-family: "Lexend Deca", sans-serif;
 }
 
 .button-sedans {
     color: hsl(31, 77%, 52%);
+}
+
+.button-suvs {
+    color:hsl(184, 100%, 22%);
 }
