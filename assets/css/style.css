@@ -55,7 +55,10 @@ h3 {
 
 .suvs {
     background-color: hsl(184, 100%, 22%);
- 
+}
+
+.luxery {
+    background-color: hsl(179, 100%, 13%)
 }
 
 .logo {
@@ -84,4 +87,8 @@ button {
 
 .button-suvs {
     color:hsl(184, 100%, 22%);
+}
+
+.button-luxery {
+    color:hsl(179, 100%, 13%)
 }
